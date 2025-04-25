@@ -1,0 +1,18 @@
+def fun():
+    print("This is fun()")
+
+def disp():
+    print("This is disp()")
+
+def msg():
+    print("This is msg()")
+
+functions = [fun, disp, msg]
+
+for f in functions:
+    f()
+
+# Output:
+# This is fun()
+# This is disp()
+# This is msg()
